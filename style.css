@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+nav{
+    margin: 15px 10px;
+    display: flex;
+    align-items: center;
+}
+nav .logo img{
+    margin-right:80px ;
+}
+nav .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .list ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+nav .list ul li{
+    display: flex;
+    justify-content: space-between;
+    margin-left:60px ;
+
+}
+nav .btn1{
+    /* margin-right: 10px; */
+    margin-left: 280px;
+  
+
+}
+nav button{
+padding: 10px 20px;
+font-size: 15px;
+background-color: rgb(86, 32, 214);
+color: white;
+border: none;
+border-radius: 10px;
+
+}
+
+.para .p1{
+    margin-top: 50px;
+    padding: 20px 0;
+    font-size: 70px;
+    font-weight: 600;
+      color: rgba(63, 17, 105, 0.87);
+
+}
+.para .p1 mark{
+    color: rgb(146, 70, 182);
+    background-color: white;
+
+}
+.para .p2{
+    color:  rgb(117, 81, 158);
+    line-height: 16px;
+   
+}
+.main .img img{
+    position: absolute;
+    height: 70%;
+    width: 60%;
+    
+    top: 90px;
+    left: 550px;
+}
+.btn2{
+  margin: 20px 0;
+}
+.btn2 button{
+    padding: 10px 20px;
+font-size: 15px;
+background-color: rgb(86, 32, 214);
+color: white;
+border: none;
+border-radius: 10px;
+margin-top: 50px;
+    
+}
